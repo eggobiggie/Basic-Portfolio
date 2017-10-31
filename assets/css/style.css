@@ -13,7 +13,8 @@ body {
 
 .name,
 .aboutTitle,
-.connectMe {
+.connectMe,
+.contactText {
   font-family: 'Georgia', Times, Times New Roman, serif;
   font-weight: bold;
 }
@@ -60,7 +61,8 @@ li a {
   float: left;
 }
 
-.aboutTitle {
+.aboutTitle,
+.contactText {
   color: #4aaaa5;
   font-size: 30px;
   padding-top: 20px;
@@ -88,8 +90,49 @@ li a {
 /*Contact me page*/
 
 .contactBox {
-
+  width: 650px;
+  height: 575px;
+  background-color: #ffffff;
+  margin-top: 40px;
+  margin-left: 200px;
+  font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+  float: left;
 }
+
+.contactInfo {
+  margin-top: 25px;
+  margin-left: 20px;
+  line-height: 1.8;
+  color: #777777;
+}
+
+.inputInfo {
+  width: 600px;
+  height: 25px;
+  padding-left: 5px;
+  margin-bottom: 15px;
+  color: #cccccc;
+}
+
+#emailInput {
+  margin-bottom: 0;
+}
+
+.messageArea {
+  width: 600px;
+  height: 200px;
+  margin-bottom: 10px;
+}
+
+.submitButton {
+  background-color: #4aaaa5;
+  border: none;
+  color: #ffffff;
+  padding: 10px 30px;
+  font-size: 20px;
+}
+
+/*Connect with Me box*/
 
 .connectMe {
   background-color: #ffffff;
@@ -135,9 +178,6 @@ li a {
   margin-top: 29px;
   margin-left: 3px;
 }
-
-
-
 
 .footer {
   border-top: 10px solid #4aaaa5;
