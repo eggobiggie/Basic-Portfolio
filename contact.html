@@ -3,17 +3,21 @@
 <head>
   <meta charset="UTF-8">
   <title>Contact</title>
+  <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
+  <link rel="stylesheet" type="text/css" href="./assets/css/reset.css">
 </head>
 <body>
-  <header>
+  <header class="header">
     <h1 class="name">Mia Crandell</h1>
-    <p>About</p>
-    <p>Portfolio</p>
-    <P>Contact</P>
+    <ul class="navBar">
+      <li id="about"><a href="./index.html">About</a></li>
+      <li id="portfolio"><a href="./portfolio.html">Portfolio</a></li>
+      <li><a href="./contact.html">Contact</a></li>
+    </ul>
   </header>
   <div class="contactBox">
     <h3>Contact</h3>
-      <form>
+      <form name="information">
         Name:<br/>
         <input type="text" name="name"><br/>
         Email:<br/>
@@ -21,17 +25,17 @@
       </form>
     <br/>
       Message: <br/>
-      <textarea rows="10" cols="50" name="message" form="usrform"></textarea>
+      <textarea rows="10" cols="50" name="message"></textarea>
       <br/>
-      <button type="submit" form="form1" value="Submit">Submit</button>
+      <button type="submit" name="submit1" value="Submit">Submit</button>
   </div>
   <div class="connectMe">
-    <h3>Connect with Me</h3>
-    <img src="./assets/images/github.png" alt="github icon">
-    <img src="./assets/images/linkedin.png" alt="linkedin icon">
-    <img src="./assets/images/stackoverflow.png" alt="stackoverflow icon">
+    <h3 class="connectTitle">Connect with Me</h3>
+    <a href="https://github.com/eggobiggie" target="_blank"><img src="./assets/images/github.png" alt="github icon" id="github" class="icons"></a>
+    <a href="https://www.linkedin.com/in/mia-crandell-06a84b127/" target="_blank"><img src="./assets/images/linkedin.png" alt="linkedin icon" id="linkedin" class="icons"></a>
+    <a href="https://stackoverflow.com/users/8474474/mia-crandell" target="_blank"><img src="./assets/images/stackoverflow.png" alt="stackoverflow icon" id="stack" class="icons"></a>
   </div>
-  <footer>
+  <footer class="footer">
     <p>&copy; Copyright 2017 Mia Crandell</p>
   </footer>
 </body>

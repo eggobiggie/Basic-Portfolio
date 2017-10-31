@@ -3,53 +3,57 @@
 <head>
   <meta charset="UTF-8">
   <title>Portfolio</title>
+  <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
+  <link rel="stylesheet" type="text/css" href="./assets/css/reset.css">
 </head>
 <body>
-  <header>
+  <header class="header">
     <h1 class="name">Mia Crandell</h1>
-    <p>About</p>
-    <p>Portfolio</p>
-    <P>Contact</P>
+    <ul class="navBar">
+      <li id="about"><a href="./index.html">About</a></li>
+      <li id="portfolio"><a href="./portfolio.html">Portfolio</a></li>
+      <li><a href="./contact.html">Contact</a></li>
+    </ul>
   </header>
   <div class="portfolioBox">
     <div class="bread box">
-      <img src="./assets/images/bread.jpg">
+      <img src="./assets/images/bread.jpg" alt="Bread">
         <div class="breadText">
           <h3>Bread</h3>
         </div>
     </div>
     <div class="cat box">
-      <img src="./assets/images/cat.jpg">
+      <img src="./assets/images/cat.jpg" alt="Cat">
       <div class="catText">
         <h3>Cat</h3>
       </div>
     </div>
     <div class="disco box">
-      <img src="./assets/images/disco.jpg">
+      <img src="./assets/images/disco.jpg" alt="Disco ball">
       <div class="discoText">
         <h3>Disco</h3>
       </div>
     </div>
     <div class="gold box">
-      <img src="./assets/images/gold.jpg">
+      <img src="./assets/images/gold.jpg" alt="Gold colors">
       <div class="goldText">
         <h3>Gold</h3>
       </div>
     </div>
     <div class="paint box">
-      <img src="./assets/images/paint.jpg">
+      <img src="./assets/images/paint.jpg" alt="Paint splotches">
       <div class="paintText">
         <h3>Paint</h3>
       </div>
     </div>
   </div>
   <div class="connectMe">
-    <h3>Connect with Me</h3>
-    <img src="./assets/images/github.png" alt="github icon">
-    <img src="./assets/images/linkedin.png" alt="linkedin icon">
-    <img src="./assets/images/stackoverflow.png" alt="stackoverflow icon">
+    <h3 class="connectTitle">Connect with Me</h3>
+    <a href="https://github.com/eggobiggie" target="_blank"><img src="./assets/images/github.png" alt="github icon" id="github" class="icons"></a>
+    <a href="https://www.linkedin.com/in/mia-crandell-06a84b127/" target="_blank"><img src="./assets/images/linkedin.png" alt="linkedin icon" id="linkedin" class="icons"></a>
+    <a href="https://stackoverflow.com/users/8474474/mia-crandell" target="_blank"><img src="./assets/images/stackoverflow.png" alt="stackoverflow icon" id="stack" class="icons"></a>
   </div>
-  <footer>
+  <footer class="footer">
     <p>&copy; Copyright 2017 Mia Crandell</p>
   </footer>
 </body>
